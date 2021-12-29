@@ -29,6 +29,8 @@ This project uses :
 |--|--|
 
 To download the dataset, click on this [link](https://archive.ics.uci.edu/ml/machine-learning-databases/00373/).
+<p>
+To have a more detailes description of the dataset, click on this [link](https://archive.ics.uci.edu/ml/machine-learning-databases/00373/).
 
 For this project we will mainly use the following libraries :
 ```python
