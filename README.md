@@ -4,7 +4,8 @@
 
 ## Overview 
 
-This is our final Project for the "Python for Data Analysis" course. The goal for this project was to understand the implications of manipulating a data set, from data processing and data visualization to machine learning. With **Chloé Coursimault** we worked on the Drug Consumption Data Set from the UCI Machine Learning repository. 
+This is our final Project for the "Python for Data Analysis" course. The goal for this project was to understand the implications of manipulating a data set, from data processing and data visualization to machine learning. With **Chloé Coursimault** we worked on the Drug Consumption Data Set from the UCI Machine Learning repository
+[Drug Consumption Data Set from the UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29). 
 
 
 <p align="center">
