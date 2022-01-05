@@ -135,7 +135,8 @@ If you want to open the Api on your computer follow thoses request :
 Then for the Command Prompt : 
  
 ```python
-cd...
+cd... # location of your file 
+cd DrugUser  
 py -m pip install pandas
 py -m pip install scikit
 py -m pip install xgboost  
