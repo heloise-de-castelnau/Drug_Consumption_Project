@@ -131,6 +131,21 @@ This project is also available in an Application form through Django ! Don't hes
 
 <p>
 
+If you want to open the Api on your computer follow thoses request :
+Go to the directory where the manage.py file is stocked
+Check that python is installed as a environment variable
+Check that the module pandas and scikit learn are installed
+Check that Django is installed
+Then for the Command Prompt : 
+ 
+```python
+cd...
+py -m pip install pandas
+py -m pip install scikit
+py manage.py runserver  
+```  
+
+  
 </p>
 
 
