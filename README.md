@@ -122,8 +122,12 @@ Throughout this study we wanted to reply to this question : *" Has the individua
 In order to reply to this question, we splitted the drug consumption in two categories, if the drog was used up to last year, the individual is considered as an user, otherwise it's a non-user. We performed multiples machine learning and found at that the most performant on were : *Random forest & logistic regression*
 
 <p>
-This project is also available in an Application form through Django ! Don't hesitate to have a look :) 
+This project is also available in an Application form through Django ! Don't hesitate to have a look at our presentation video for a little overview 🎥 :)   
+
+(Click on the picture 🖼️ ) 
 </p>
+  
+[![Watch the video](https://images.assetsdelivery.com/compings_v2/giamportone/giamportone1904/giamportone190400156.jpg)](https://www.youtube.com/watch?v=2gHpapC8ZMw)
 
 <p>
 
