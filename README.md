@@ -119,7 +119,7 @@ To carry out the study of our dataset, we splitted our project into different po
 ---
 
 Throughout this study we wanted to reply to this question : *" Has the individual with the characteristics X used illegal drugs lately (up to one year)? "*.
-In order to reply to this question, we splitted the drug consumption in two categories, if the drog was used up to last year, the individual is considered as an user, otherwise it's a non-user. We performed multiples machine learning and found at that the most performant on were : *Random forest & logistic regression*
+In order to reply to this question, we splitted the drug consumption in two categories, if the drog was used up to last year, the individual is considered as an user, otherwise it's a non-user. We performed multiples machine learning and found at that the most performant on were : *XGBOOST, Linear SVC & logistic regression*
 
 <p>
 This project is also available in an Application form through Django ! Don't hesitate to have a look at our presentation video for a little overview 🎥 :)   
