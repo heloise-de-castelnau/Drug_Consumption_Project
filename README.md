@@ -129,7 +129,7 @@ If you want to open the Api on your computer follow thoses request :
   
 * Go to the directory where the manage.py file is stocked
 * Check that python is installed as a environment variable
-* Check that the module pandas and scikit learn are installed
+* Check that the module pandas, scikitlearn & xgboost are installed
 * Check that Django is installed
   
 Then for the Command Prompt : 
@@ -138,6 +138,7 @@ Then for the Command Prompt :
 cd...
 py -m pip install pandas
 py -m pip install scikit
+py -m pip install xgboost  
 py manage.py runserver  
 ```  
 
