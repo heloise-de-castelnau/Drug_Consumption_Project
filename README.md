@@ -36,9 +36,6 @@ For this project we will mainly use the following libraries :
 ```python
 #Import Packages
 # essential libraries
-import json
-import random
-from urllib.request import urlopen
 
 # storing and anaysis
 import numpy as np
@@ -54,14 +51,6 @@ import plotly.graph_objs as go
 import plotly.figure_factory as ff
 from pywaffle import Waffle
 
-# converter
-from pandas.plotting import register_matplotlib_converters
-register_matplotlib_converters()   
-from sklearn.preprocessing import LabelEncoder
-
-# hide warnings
-import warnings
-warnings.filterwarnings('ignore')
 
 #Machine learning cleaning and boosting
 from sklearn.model_selection import train_test_split
@@ -118,24 +107,30 @@ To carry out the study of our dataset, we splitted our project into different po
 
 ---
 
-Throughout this study we wanted to reply to this question : *" Has the individual with the characteristics X used illegal drugs lately (up to one year)? "*.
+Throughout this study we wanted to reply to this question : **" Has the individual with the characteristics X used illegal drugs lately (up to one year)? "**.
 In order to reply to this question, we splitted the drug consumption in two categories, if the drog was used up to last year, the individual is considered as an user, otherwise it's a non-user. We performed multiples machine learning and found at that the most performant on were : *XGBOOST, Linear SVC & logistic regression*
 
-<p>
-This project is also available in an Application form through Django ! Don't hesitate to have a look at our presentation video for a little overview 🎥 :)   
 
-(Click on the picture 🖼️ ) 
+## Django 🦍
+<p>
+This project is also available in an Application form through Django ! Don't hesitate to have a look at our presentation video for a little overview 🎥 :)  
+  
+**Please keep in mind that the goal of our system is to enable specialists such as psychologists and others to detect current or future users, so the metrics used for the search through the API should be filled by profesionnal and therefore as written from the original dataset.**
+  
+(Click on the picture ⤵️ ) 
 </p>
   
 [![Watch the video](https://images.assetsdelivery.com/compings_v2/giamportone/giamportone1904/giamportone190400156.jpg)](https://www.youtube.com/watch?v=2gHpapC8ZMw)
 
 <p>
-
+  
 If you want to open the Api on your computer follow thoses request :
-Go to the directory where the manage.py file is stocked
-Check that python is installed as a environment variable
-Check that the module pandas and scikit learn are installed
-Check that Django is installed
+  
+* Go to the directory where the manage.py file is stocked
+* Check that python is installed as a environment variable
+* Check that the module pandas and scikit learn are installed
+* Check that Django is installed
+  
 Then for the Command Prompt : 
  
 ```python
